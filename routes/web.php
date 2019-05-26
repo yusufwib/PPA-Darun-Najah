@@ -11,36 +11,43 @@
 |
 */
 
-Route::group(['prefix' => 'v1', 'middleware' => 'cors'], function () {
-    //POST
-    Route::post('/insert/posting', 'PostingController@storePosting');
-    Route::post('/insert/gallery', 'PostingController@storeGallery');
-    Route::post('/insert/jadwal', 'PostingController@storeJadwal');
+Route::get('/siswa', 'SiswaController@index');
+Route::get('/siswa/export_excel', 'SiswaController@export_excel');
+Route::post('/siswa/import_excel', 'SiswaController@import_excel');
+Route::get('/pegawai/tambah','SiswaController@tambah');
+Route::post('/pegawai/store','PelanggaranController@store');
+Route::post('/pegawai/guru','PelanggaranController@guru');
 
-    Route::post('/insert/ip', 'PostingController@storeVisitor');
-    //GET
-    Route::get('/get/postingArtikel', 'GetController@indexPostingArtikel');
-    Route::get('/get/postingBerita', 'GetController@indexPostingBerita');
-    Route::get('/get/postingPengumuman', 'GetController@indexPostingPengumuman');
-    Route::get('/get/gallery', 'GetController@indexGallery');
+Route::get('/', function () {
+    return view('login');
+    // return view('welcome');
+});
 
-    Route::get('/get/postingAll', 'GetController@indexPostingAll');
-    Route::get('/get/galleryAll', 'GetController@indexGalleryAll');
-    Route::get('/get/jadwalAll', 'GetController@indexJadwalAll');
+Route::get('indeks', function(){
+    return view('indeks');
+});
 
-    Route::get('/get/ip', 'GetController@indexVisitor');
-    //UPDATE
-    Route::post('/update/posting/{id}', 'UpdateController@updatePosting');
-    Route::post('/update/jadwal/{id}', 'UpdateController@updateJadwal');
-    //DELETE
-    Route::get('/delete/posting/{id}', 'DeleteController@deletePosting');
-    Route::get('/delete/gallery/{id}', 'DeleteController@deleteGallery');
-    //LOGIN
-    Route::post('/user/register', 'AuthController@store');
-    Route::post('/user/signin', 'AuthController@signin');
+Route::get('daftar', function(){
+    return view('daftar');
+});
 
-    //MAIL
-    Route::post('/send', 'MailController@send');
+Route::get('form', function(){
+    return view('form');
+});
 
 
+Route::get('input', function(){
+    return view('input');
+});
+
+Route::get('login', function(){
+    return view('login');
+});
+
+Route::get('register', function(){
+    return view('register');
+});
+
+Route::get('siswa', function(){
+    return view('siswa');
 });

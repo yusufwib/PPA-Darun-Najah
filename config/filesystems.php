@@ -45,27 +45,27 @@ return [
 
         'public' => [
             'driver' => 'local',
-            'root' => public_path().'/uploads',
+            'root' => storage_path().'/uploads',
             'url' => env('APP_URL').'/public',
             'visibility' => 'public',
         ],
         'posting' => [
             'driver' => 'local',
-            'root' => public_path().'/uploads/posting',
+            'root' => storage_path().'/app/public/posting',
             'url' => env('APP_URL').'/public',
             'visibility' => 'public',
         ],
 
         'jadwal' => [
             'driver' => 'local',
-            'root' => public_path().'/uploads/jadwal',
+            'root' => storage_path().'/app/public/jadwal',
             'url' => env('APP_URL').'/public',
             'visibility' => 'public',
         ],
 
         'gallery' => [
             'driver' => 'local',
-            'root' => public_path().'/uploads/gallery',
+            'root' => storage_path().'/app/public/gallery',
             'url' => env('APP_URL').'/public',
             'visibility' => 'public',
         ],
@@ -82,3 +82,4 @@ return [
     ],
 
 ];
+ 

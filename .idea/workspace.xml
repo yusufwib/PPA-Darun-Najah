@@ -1,7 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="413a1d81-6dc5-4084-8e08-149016ca8ad4" name="Default Changelist" comment="" />
+    <list default="true" id="413a1d81-6dc5-4084-8e08-149016ca8ad4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/public_html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/public_html.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GetController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GetController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jwt.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/jwt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_02_17_044238_create_postings_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_02_17_044238_create_postings_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php3443.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php382C.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php3B2A.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php3E96.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php4137.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php4474.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php47B2.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php4AB0.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php4C72.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php4D9F.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php50EC.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php535E.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php565D.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php590D.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php5C3B.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php5EDB.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php61F9.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php649A.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php6597.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php6799.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php6B05.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php6E61.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php7269.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php7726.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/gallery/php7BE0.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/jadwal/localhosphpAFA1.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/jadwal/php367C.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/jadwal/php37C.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/jadwal/php3AF6.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/jadwal/php98F.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/jadwal/php9E2D.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/jadwal/phpA5E2.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/jadwal/phpB33D.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/jadwal/phpB605.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/jadwal/phpB755.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/jadwal/phpBB7D.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/jadwal/phpBE7B.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/jadwal/phpD165.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/jadwal/phpFB9E.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php1BC4.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php1F66.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php2C8.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php2F5F.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php2FA8.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php51B0.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php5E1F.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php5E90.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php604F.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php6755.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php6C09.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php7040.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php739D.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php769B.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php79B9.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php7C5A.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php7CB4.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php7F49.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php8099.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php8351.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php8E8D.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php9253.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php9295.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php966F.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php994E.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php9A33.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php9CE9.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/php9FF1.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpA094.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpA486.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpA4FA.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpA97F.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpAE23.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpB25A.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpB598.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpB867.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpBB27.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpBDA7.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpBF6E.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpBFEA.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpC3A5.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpC5C6.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpC7EC.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpCCCF.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpD06A.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpD491.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpD88A.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpDD1F.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpE108.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpE57E.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpE8EA.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpEB9A.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpF03F.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpF32E.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpF64B.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/posting/phpF8D9.tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,79 +124,101 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_03_104702_create_scores_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="187">
+              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="46" />
+              <folding>
+                <element signature="e#7#45#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/app.php">
+        <entry file="file://$PROJECT_DIR$/app/Imports/ShunImport.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+            <state relative-caret-position="128">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#31#44#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="289">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <folding>
+                <element signature="e#33#72#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.php">
+        <entry file="file://$PROJECT_DIR$/app/Imports/StudentImport.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="44" column="38" lean-forward="true" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="53" />
+            <state relative-caret-position="6">
+              <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+              <folding>
+                <element signature="e#31#47#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthController.php">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_17_044238_create_postings_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+            <state relative-caret-position="272">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/jwt.php">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_05_072701_create_shuns_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2771">
-              <caret line="170" column="6" selection-start-line="170" selection-start-column="6" selection-end-line="170" selection-end-column="6" />
+            <state relative-caret-position="34">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="e#7#45#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/mail.php">
+        <entry file="file://$PROJECT_DIR$/app/Exports/StudentExport.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/logging.php">
+        <entry file="file://$PROJECT_DIR$/app/Exports/ShunExport.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DeleteController.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GetController.php">
+        <entry file="file://$PROJECT_DIR$/config/excel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+            <state relative-caret-position="1054">
+              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Imports/ScoreImport.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="29" />
+              <folding>
+                <element signature="e#31#45#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,7 +232,33 @@
       <find>cart</find>
       <find>getpro</find>
       <find>indexgall</find>
+      <find>passpo</find>
+      <find>$table-&gt;string</find>
+      <find>$table-&gt;string(</find>
+      <find>);</find>
+      <find>(</find>
+      <find>)-&gt;nullable()</find>
+      <find>rapor</find>
+      <find>;</find>
+      <find>0</find>
+      <find>row[0]</find>
+      <find>row[1]</find>
+      <find>row[4]</find>
+      <find>row[5]</find>
+      <find>row</find>
+      <find>row[8]</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>)-&gt;nullable()</replace>
+      <replace />
+      <replace>$row[5]</replace>
+      <replace>usek</replace>
+      <replace>,</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -109,13 +267,27 @@
         <option value="$PROJECT_DIR$/resources/views/user/cart.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
         <option value="$PROJECT_DIR$/resources/views/user/pembayaran.blade.php" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/GetController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/config/jwt.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_02_17_044238_create_postings_table.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/student.php" />
+        <option value="$PROJECT_DIR$/app/score.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/GetController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_03_093649_create_students_table.php" />
+        <option value="$PROJECT_DIR$/app/Shun.php" />
+        <option value="$PROJECT_DIR$/app/Imports/ShunImport.php" />
+        <option value="$PROJECT_DIR$/config/excel.php" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ExcelController.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Imports/StudentImport.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_05_072701_create_shuns_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_03_104702_create_scores_table.php" />
+        <option value="$PROJECT_DIR$/app/Imports/ScoreImport.php" />
       </list>
     </option>
   </component>
@@ -208,23 +380,30 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
-      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
-      <path value="$PROJECT_DIR$/vendor/league/event" />
-      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
-      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
       <path value="$PROJECT_DIR$/vendor/tymon/jwt-auth" />
-      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
       <path value="$PROJECT_DIR$/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
       <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
       <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
-      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-cors" />
       <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
+    <option name="x" value="1" />
+    <option name="y" value="324" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -233,68 +412,120 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Exports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Imports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="public_html" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="public_html" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
               <item name="laravel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,16 +580,23 @@
       <workItem from="1555753711484" duration="5733000" />
       <workItem from="1555833195890" duration="1724000" />
       <workItem from="1556085458170" duration="1558000" />
+      <workItem from="1556675703500" duration="4135000" />
+      <workItem from="1556823207702" duration="204000" />
+      <workItem from="1556873324192" duration="10472000" />
+      <workItem from="1556926098769" duration="5184000" />
+      <workItem from="1556974024434" duration="4650000" />
+      <workItem from="1557040233430" duration="18988000" />
+      <workItem from="1557076362589" duration="2199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65748000" />
+    <option name="totallyTimeSpent" value="111664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.295764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -373,7 +611,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3686636" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,58 +643,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RouteController.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_files.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-578">
-          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/installed.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="667" lean-forward="true" selection-start-line="667" selection-end-line="667" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_02_062115_create_user_types_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_02_062158_create_user_lists_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_02_072735_create_users_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_10_151434_create_users_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_10_151108_create_user_types_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_02_070735_create_user_types_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_02_081340_create_produk_types_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_02_224342_create_produks_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_10_152610_create_fotos_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_10_152343_create_produk_types_table.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/cart.blade.php" />
-    <entry file="file://$PROJECT_DIR$/database/seeds/UserSeeder.php" />
-    <entry file="file://$PROJECT_DIR$/database/seeds/AdminUserSeeder.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_10_152821_create_produks_table.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/API/ApiController.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/user/detail.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/user/index.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/product.blade.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/admin/updateProduct.blade.php" />
     <entry file="file://$PROJECT_DIR$/../AppData/Local/Temp/fz3temp-2/index.php" />
     <entry file="file://$PROJECT_DIR$/../AppData/Local/Temp/fz3temp-2/postgre.php" />
@@ -477,25 +675,8 @@
     <entry file="file://$PROJECT_DIR$/routes/channels.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="45" column="3" selection-start-line="12" selection-end-line="45" selection-end-column="3" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -518,33 +699,217 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/logging.php">
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DeleteController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GetController.php">
+    <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+        <state relative-caret-position="32">
+          <caret line="163" column="24" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/mail.php">
+    <entry file="file://$PROJECT_DIR$/config/cors.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="44" column="38" lean-forward="true" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="53" />
+        <state relative-caret-position="285">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/hashing.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/logging.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/posting.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_26_112943_create_visitors_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_18_111518_create_galleries_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_03_093649_create_students_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GetController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="169" column="5" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/score.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="473" lean-forward="true" selection-start-line="473" selection-end-line="473" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Shun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Exports/ScoreExport.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ExcelController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/maatwebsite/excel/src/Concerns/WithStartRow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="125" column="59" selection-start-line="125" selection-start-column="59" selection-end-line="125" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/excel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="e#33#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Exports/StudentExport.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Exports/ShunExport.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_17_044238_create_postings_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Imports/ShunImport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#31#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_05_072701_create_shuns_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#7#45#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Imports/StudentImport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+          <folding>
+            <element signature="e#31#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Imports/ScoreImport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="29" />
+          <folding>
+            <element signature="e#31#45#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_03_104702_create_scores_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="46" />
+          <folding>
+            <element signature="e#7#45#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
