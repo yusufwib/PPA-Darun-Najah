@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
     <!-- Required meta tags-->
@@ -34,7 +34,7 @@
     <link href="css/theme.css" rel="stylesheet" media="all">
 
 	<title>Import Excel Ke Database Dengan Laravel</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	{{-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> --}}
 </head>
 <body>
     <div class="page-wrapper">
@@ -109,24 +109,8 @@
                                         <div class="card-header bg-dark">
                                             <strong class="text-light">Daftar Laporan</strong>
                                         </div>
-                                        <!-- DATA TABLE -->
-                                        {{-- <div class="table-data__tool">
-                                            <div class="table-data__tool-left pt-4 pl-4">
-                                                    <div class="row form-group">
-                                                    <div class="col-1 pt-1">
-                                                        <label for="text-input" class=" form-control-label">NIK</label>
-                                                    </div>
-                                                    <div class="col-7">
-                                                        <input type="text" id="text-input" name="text-input" placeholder="Masukan NIK" class="form-control">
-                                                    </div>
-                                                    <div class="col-3">
-                                                    <button class="au-btn au-btn-icon au-btn--green au-btn--small">
-                                                    Cari</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> --}}
-                                        <p style="color:white"> dwD</p>
+                                        <h3 class="m-3">Import data santri :</h3>
+
                                         @if ($errors->has('file'))
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $errors->first('file') }}</strong>
@@ -144,7 +128,37 @@
                                         <button type="button" class="btn btn-primary m-3" style="width:150px" data-toggle="modal" data-target="#importExcel">
                                             IMPORT EXCEL
                                         </button>
+                                        <h3 class="m-3">Hapus semua data santri :</h3>
+
+                                        <form method="get" action="/siswa/truncate" enctype="multipart/form-data">
+                                        <button type="submit" class="btn btn-danger m-3" style="width:170px" >
+                                            DELETE ALL DATA
+                                        </button>
+                                        </form>
                                         <div class="mb-5"></div>
+
+                                        @if(isset($details))
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>NIS</th>
+                                                    <th>Name</th>
+                                                    <th>Telp</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach($details as $user)
+                                                <tr>
+                                                    <td>{{$user->nis}}</td>
+                                                    <td>{{$user->nama}}</td>
+                                                    <td>{{$user->telp}}</td>
+                                                    <td><a class="btn-danger pl-4 pr-4 pb-2 pt-2" href="/{{ $user->nis }}">Laporkan</a></td>
+                                                </tr>
+                                                @endforeach
+                                            </tbody>
+                                        </table>
+                                        @endif
 
                                         <!-- Import Excel -->
                                         <div class="modal fade" id="importExcel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -265,8 +279,7 @@
 
 {{--
 		<a href="/siswa/export_excel" class="btn btn-success my-3" target="_blank">EXPORT EXCEL</a> --}}
-{{--
-		<table class='table table-bordered'>
+        {{-- <table class='table table-bordered'>
 			<thead>
 				<tr>
 					<th>No</th>
@@ -286,7 +299,8 @@
 				</tr>
 				@endforeach
 			</tbody>
-		</table> --}}
+        </table> --}}
+
     </div>
 
 

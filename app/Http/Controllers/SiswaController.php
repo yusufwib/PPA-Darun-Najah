@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Siswa;
+use App\Pelanggaran;
 
 use Session;
 
@@ -13,6 +14,9 @@ use App\Exports\PelanggaranExport;
 use App\Imports\SiswaImport;
 use Maatwebsite\Excel\Facades\Excel;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Input;
+
+
 
 class SiswaController extends Controller
 {
@@ -35,6 +39,17 @@ public function tambah()
 	public function export_excel()
 	{
 		return Excel::download(new PelanggaranExport, 'pelanggaran.xlsx');
+    }
+    public function truncate()
+	{
+        Siswa::truncate();
+		return redirect('/indeks');
+	}
+
+	public function truncateP()
+	{
+        Pelanggaran::truncate();
+		return redirect('/indeks');
 	}
 
 	public function import_excel(Request $request)
@@ -61,5 +76,20 @@ public function tambah()
 
 		// alihkan halaman kembali
 		return redirect('/siswa');
-	}
+    }
+
+    public function search(){
+        $q = Input::get ( 'q' );
+        $user = Siswa::where('nama','LIKE','%'.$q.'%')->get();
+        if(count($user) > 0)
+            return view('indeks')->withDetails($user)->withQuery ( $q );
+        else return view ('indeks')->withMessage('No Details found. Try to search again !');
+    }
+    public function searchNIS(){
+        $q = Input::get ( 'q' );
+        $user = Pelanggaran::where('nis','LIKE','%'.$q.'%')->get();
+        if(count($user) > 0)
+            return view('daftar')->withDetails($user)->withQuery ( $q );
+        else return view ('daftar')->withMessage('No Details found. Try to search again !');
+    }
 }

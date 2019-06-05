@@ -113,65 +113,23 @@
                                     <strong class="text-light">Form Pelaporan</strong>
                                 </div>
                                 <div class="card-body card-block">
-                                    <h3>Cari santri yang akan dilaporkan berdasarkan nama santri :</h3>
-                                    <br>
-
-                                    <form action="/search" method="POST" role="search">
-                                        {{ csrf_field() }}
-                                        <div class="input-group">
-                                            <input type="text" class="form-control" name="q"
-                                                placeholder="Search santri">
-                                                <br>
-                                                <span class="input-group-btn">
-                                                <button type="submit" class="btn btn-primary p-2" >
-                                                    Cari
-                                                </button>
-                                            </span>
-                                        </div>
-                                    </form>
-                                    <br>
-                                    @if(isset($details))
-                                    <p> The Search results for your query <b> {{ $query }} </b> are :</p>
-                                    <br>
-                                {{-- <h2>Sample User details</h2> --}}
-                                <table class="table table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th>NIS</th>
-                                            <th>Name</th>
-                                            <th>Telp</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @foreach($details as $user)
-                                        <tr>
-                                            <td>{{$user->nis}}</td>
-                                            <td>{{$user->nama}}</td>
-                                            <td>{{$user->telp}}</td>
-                                            <td><a class="btn-danger pl-4 pr-4 pb-2 pt-2" href="/{{ $user->nis }}">Laporkan</a></td>
-                                        </tr>
-                                        @endforeach
-                                    </tbody>
-                                </table>
-                                @endif
 
 
 
-	{{-- <form action="/pegawai/store" method="post"> --}}
-		{{-- {{ csrf_field() }} --}}
+	<form action="/pegawai/store" method="post">
+		{{ csrf_field() }}
 		{{-- NIS <input type="number" name="nis" required="required" placeholder="Masukkan NIS Siswa" class="form-control"> <br/> --}}
-		{{-- Pelanggaran <input type="text" name="pelanggaran" required="required" placeholder="Keterangan Pelanggaran" class="form-control"> <br/> --}}
-		{{-- Kategori   <select name="kategori" class="form-control"> --}}
-            {{-- <option value="A">A</option> --}}
-            {{-- <option value="B">B</option> --}}
-            {{-- <option value="C">C</option> --}}
+		Pelanggaran <input type="text" name="pelanggaran" required="required" placeholder="Keterangan Pelanggaran" class="form-control"> <br/>
+		Kategori   <select name="kategori" class="form-control">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
             {{-- <option value="audi">Audi</option> --}}
-          {{-- </select> --}}
-           {{-- <br/> --}}
-		{{-- Takzir <textarea name="takzir" class="form-control"     required="required"></textarea> <br/> --}}
-		{{-- Pengurus <input type="text" name="pengurus" required="required" class="form-control"> <br/>
-		<input type="submit" value="Simpan Data"> --}}
+          </select>
+           <br/>
+		Takzir <textarea name="takzir" class="form-control"     required="required"></textarea> <br/>
+		Pengurus <input type="text" name="pengurus" required="required" class="form-control"> <br/>
+		{{-- <input type="submit" value="Simpan Data"> --}}
 
 
 
@@ -215,12 +173,12 @@
                                             </div>
                                         </form> --}}
                                     </div>
-                                    {{-- <div class="card-footer">
+                                    <div class="card-footer">
                                         <button type="submit" class="btn btn-primary btn mb-5" value="Simpan Data">
                                             Upload
                                         </button>
                                     </form>
-                                    </div> --}}
+                                    </div>
                                 </div>
             </div>
             <!-- END MAIN CONTENT-->

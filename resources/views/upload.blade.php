@@ -121,7 +121,28 @@
 
 		<button type="button" class="btn btn-primary mr-5" data-toggle="modal" data-target="#importExcel">
 			IMPORT EXCEL
-		</button>
+        </button>
+        <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>NIS</th>
+                                            <th>Name</th>
+                                            <th>Telp</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach($details as $user)
+                                        <tr>
+                                            <td>{{$user->nis}}</td>
+                                            <td>{{$user->nama}}</td>
+                                            <td>{{$user->telp}}</td>
+                                            <td><a class="btn-danger pl-4 pr-4 pb-2 pt-2" href="/{{ $user->nis }}">Laporkan</a></td>
+                                        </tr>
+                                        @endforeach
+                                    </tbody>
+                                </table>
+                                @endif
 
 		<!-- Import Excel -->
 		<div class="modal fade" id="importExcel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -146,7 +167,8 @@
 							<button type="submit" class="btn btn-primary">Import</button>
 						</div>
 					</div>
-				</form>
+                </form>
+
 			</div>
 		</div>
 
@@ -174,7 +196,8 @@
 				</tr>
 				@endforeach
 			</tbody>
-		</table>
+        </table>
+
 	</div>
 
 </div>

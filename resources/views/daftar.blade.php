@@ -128,9 +128,66 @@
                                         </div>
                                     </div>
                                 </div> --}}
-                                <p style="color:white"> dwD</p>
+                                <h3 class="m-3">Export data santri :</h3>
+
 		<a href="/siswa/export_excel" class="btn btn-success m-3" target="_blank" style="width:150px"  style="text-align:center" >EXPORT EXCEL</a>
-{{--
+        <h3 class="m-3">Hapus semua data pelanggaran santri :</h3>
+
+        <form method="get" action="/pel/truncate" enctype="multipart/form-data">
+            <button type="submit" class="btn btn-danger m-3 mb-3" style="width:170px" >
+                DELETE ALL DATA
+            </button>
+            </form>
+            <h3 class="m-3 mb-4">Cari data pelanggaran santri berdasarkan NIS :</h3>
+
+
+
+            <form action="/searchNIS" method="POST" role="search">
+                {{ csrf_field() }}
+                <div class="input-group">
+                    <input type="text" class="form-control ml-4" name="q"
+                        placeholder="Masukkan NIS">
+                        <br>
+                        <span class="input-group-btn">
+                        <button type="submit" class="btn btn-primary p-2 mr-4 " >
+                            Cari
+                        </button>
+                    </span>
+                </div>
+            </form>
+            <br>
+            @if(isset($details))
+            <p> The Search results for your query <b> {{ $query }} </b> are :</p>
+            <br>
+        {{-- <h2>Sample User details</h2> --}}
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>NIS</th>
+                    <th>Pelanggaran</th>
+                    <th>Kategori</th>
+                    <th>Takzir</th>
+                    <th>Pengurus</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach($details as $user)
+                <tr>
+                    <td>{{$user->nis}}</td>
+                    <td>{{$user->pelanggaran}}</td>
+                    <td>{{$user->kategori}}</td>
+                    <td>{{$user->takzir}}</td>
+                    <td>{{$user->pengurus}}</td>
+
+                    <td><a class="btn-danger pl-4 pr-4 pb-2 pt-2" href="/del/{{ $user->id }}">Delete</a></td>
+                </tr>
+                @endforeach
+            </tbody>
+        </table>
+        @endif
+
+        {{--
                                 <div class="table-responsive table-responsive-data2">
                                     <table class="table table-data2">
                                         <thead>

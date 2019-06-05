@@ -14,6 +14,8 @@
 Route::get('/siswa', 'SiswaController@index');
 Route::get('/siswa/export_excel', 'SiswaController@export_excel');
 Route::post('/siswa/import_excel', 'SiswaController@import_excel');
+Route::get('/siswa/truncate', 'SiswaController@truncate');
+Route::get('/pel/truncate', 'SiswaController@truncateP');
 Route::get('/pegawai/tambah','SiswaController@tambah');
 Route::post('/pegawai/store','PelanggaranController@store');
 Route::post('/pegawai/guru','PelanggaranController@guru');
@@ -51,3 +53,17 @@ Route::get('register', function(){
 Route::get('siswa', function(){
     return view('siswa');
 });
+
+
+Route::any('/search','SiswaController@search');
+Route::any('/searchNIS','SiswaController@searchNIS');
+
+Route::get('/{nis}', 'PelanggaranController@get');
+
+Route::get('/del/{id}', 'PelanggaranController@getDel');
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
